@@ -27,7 +27,7 @@ with open('print.csv') as csvfile:
 template = env.get_template('story-template.html')
 options = {
     'page-size': 'A4',
-    'margin-top': '0mm',
+    'margin-top': '3mm',
     'encoding': "UTF-8",
     'no-outline': None,
     'quiet': ''

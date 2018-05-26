@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <style>
+
+    @media print {
+      @page {
+          size: A4 portrait;
+          margin: 0;
+          margin-top: -10mm;
+        }
+      }
+
+      body {
+        margin:0;
+        padding:0;
+        border:0;
+      }
+      #story {
+        margin-left: 40mm;
+        height: 10cm;
+        width: 10.5cm;
+        font-size: 24px;
+        position: relative;
+        font-family: helvetica;
+      }
+
+      #header {
+        /*border-bottom: 1px solid #bbb;*/
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        padding: 15px;
+        line-height: 1;
+      }
+
+      #number {
+        float: left;
+      }
+
+      #module {
+        float: right;
+      }
+
+      #desc {
+        font-size: 28px;
+        position: relative;
+        padding: 40px 20px 20px;;
+        top: 48px;
+      }
+
+      #footer {
+        /*border-top: 1px solid #bbb;*/
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding: 15px;
+        line-height: 1;
+      }
+
+      #estimate {
+        float: left;
+      }
+
+      #priority {
+        float: right;
+      }
+    </style>
+</head>
+
+<body>
+
+<div id="story">
+<div id="header">
+  <div id="number">RT-334</div>
+
+  <div id="module">门禁</div>
+</div>
+
+<div id="desc">
+  作为管理员，我希望黑、白名单可以在指定时间段内生效
+</div>
+
+<div id="footer">
+  <div id="estimate">2</div>
+
+  <div id="priority">B</div>
+</div>
+</div>
+</body>
+</html>
